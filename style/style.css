@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: "Azeret Mono", monospace; */
+
+body {
+  font-family: "Azeret Mono", monospace;
+}
+
+/* shared style */
+.primary-heading {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.paragraph {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* banner style */
+.banner {
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: -1;
+}
+.banner-container {
+  padding: 26px 100px 44px;
+  text-align: center;
+}
+
+.banner-heading {
+  color: rgb(13, 19, 33);
+
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 50px 0px 24px;
+}
+.banner-description {
+  color: rgb(13, 19, 33);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 0 73px 32px;
+}
+.contact-btn {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 21px 24px;
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+}
+
+/* Development part start */
+
+#development {
+  margin: 74px 93px 93px 88px;
+}
+
+.dev-container {
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px;
+}
+
+.dev-pragraph {
+  margin-bottom: 48px;
+  padding: 0 47px 0;
+}
+.dev-row {
+  display: flex;
+  padding: 48px;
+  gap: 98.83px;
+  background-color: #fff;
+  border-radius: 16px;
+  text-align: left;
+}
+.dev-text {
+  justify-content: flex-start;
+  width: 70%;
+}
+.dev-img {
+  align-items: start;
+  width: 30%;
+}
+.dev-row-heading {
+  color: rgba(13, 19, 33, 0.7);
+  padding-right: 78px;
+  padding-bottom: 16px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.dev-row-paragraph {
+  color: rgb(13, 19, 33);
+  padding: 0 9px 32px 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.dev-btn {
+  /* box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+   */
+
+  font-size: 20px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  color: rgb(13, 19, 33);
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  justify-content: left;
+}
+/* Inspiration part start */
+#inspiration {
+  margin: 0px 152px 149px 148px;
+}
+.ins-para {
+  padding: 0 144px;
+  margin-bottom: 48px;
+}
+.video {
+  border: 1px solid saddlebrown;
+  border-radius: 16px;
+  padding: 32px;
+}
+.video iframe {
+  border-radius: 16px;
+}
+
+/* Target section start */
+#target {
+  margin: 111px 150px 44px;
+}
+.target-row {
+  display: flex;
+  gap: 24px;
+}
+.target-col {
+  padding: 40px;
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-col h2 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  padding: 24px 0px 8px;
+}
+.target-col p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.target-col span {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+.target-col2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-col3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+/* Next Target section Start */
+#next-target {
+  margin: 0 150px 44px;
+}
+.next-target-row {
+  padding: 40px;
+  display: flex;
+  gap: 24px;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-top: 48px;
+}
+.next-target-col img {
+  padding: 27.3px;
+}
+.next-target-col h2 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.next-target-col p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.next-target-col span {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
